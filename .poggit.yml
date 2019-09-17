@@ -1,0 +1,7 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/itzfrozt/MysteryBox
+branches:
+- master
+projects:
+  MysteryBox-Remastered.MysteryBox-ReMastered:
+    path: MysteryBox-Remastered/MysteryBox-ReMastered/
+...
