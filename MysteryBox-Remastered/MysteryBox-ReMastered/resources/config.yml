@@ -1,0 +1,152 @@
+---
+# Developed by AlexItz16
+# MysteryBox configuration file
+
+# Message title/prefix
+prefix: "§7(§bCRATE§7)"
+
+# Mystery Box text update time (in seconds)
+text.update: 3
+
+# Version, recommend to not change
+version: 1
+
+# Mystery box configuration
+boxes:
+    - name: "&3&lCommon"
+      box.id: common
+      key:
+          item: "tripwire_hook:1"
+          name: "&7[Key]&3 Common"
+          lore:
+              - "&7Type: &3common"
+              - "&7Source: &cunknown"
+              - " "
+              - "&fUsed to open &3&lCommon"
+      rgb:
+          R: 250
+          G: 255
+          B: 200
+      items:
+          - item: "bread:0:10"
+            chance: 80
+          - item: "322:0:10"
+            chance: 50
+          - item: "466:0:1"
+            chance: 15
+          - item: "49:0:10"
+            chance: 40
+          - item: "iron_ingot:0:5"
+            chance: 30
+          - item: "gold_ingot:0:5"
+            chance: 60
+          - item: "bedrock:0:1"
+            chance: 5
+          - item: "17:0:16"
+            chance: 80
+    - name: "&b&lVote"
+      box.id: vote
+      key:
+          item: "tripwire_hook:2"
+          name: "&7[Key]&b Vote"
+          lore:
+              - "&7Type: &bvote"
+              - "&7Source: &cunknown"
+              - " "
+              - "&7Used to open &b&lVote"
+      rgb:
+          R: 255
+          G: 205
+          B: 200
+      items:
+          - item: "diamond:0:25"
+            chance: 20
+          - item: "466:0:5"
+            chance: 10
+          - item: "diamond_block:0:3"
+            chance: 5
+          - item: "49:0:32"
+            chance: 20
+          - item: "iron_block:0:10"
+            chance: 10
+          - item: "wheat:0:64"
+            chance: 80
+          - item: "diamond_block:0:5"
+            chance: 5
+          - item: "bedrock:0:5"
+            chance: 5
+          - item: "322:0:15"
+            chance: 20
+          - item: "17:0:25"
+            chance: 30
+          - item: "130:0:1"
+            chance: 5
+    - name: "&5&lMythic"
+      box.id: mythic
+      key:
+          item: "tripwire_hook:3"
+          name: "&7[Key]&5 Mythic"
+          lore:
+              - "&7Type: &5mythic"
+              - "&7Source: &cunknown"
+              - " "
+              - "&7Used to open &5&lMythic"
+      rgb:
+          R: 250
+          G: 200
+          B: 205
+      items:
+          - item: "bread:0:10"
+            chance: 80
+          - item: "322:0:42"
+            chance: 50
+          - item: "466:0:20"
+            chance: 10
+          - item: "49:0:42"
+            chance: 20
+          - item: "iron_ingot:0:32"
+            chance: 40
+          - item: "gold_ingot:0:32"
+            chance: 30
+          - item: "bedrock:0:10"
+            chance: 5
+          - item: "17:0:42"
+            chance: 80
+          - item: "130:0:1"
+            chance: 5
+
+    - name: "&2&lTOXIC"
+      box.id: toxic
+      key:
+          item: "tripwire_hook:4"
+          name: "&7[Key]&2 TOXIC"
+          lore:
+              - "&7Type: &2Toxic"
+              - "&7Source: &cunknown"
+              - " "
+              - "&7Used to open &2&lTOXIC"
+      rgb:
+          R: 240
+          G: 200
+          B: 260
+      items:
+          - item: "bread:0:64"
+            chance: 30
+          - item: "322:0:64"
+            chance: 20
+          - item: "466:0:32"
+            chance: 15
+          - item: "49:0:64"
+            chance: 40
+          - item: "iron_ingot:0:32"
+            chance: 5ß
+          - item: "gold_ingot:0:32"
+            chance: 50
+          - item: "bedrock:0:15"
+            chance: 20
+          - item: "17:0:64"
+            chance: 80
+          - item: "130:0:1"
+            chance: 5
+
+...
